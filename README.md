@@ -34,16 +34,16 @@ ElectoBlock is a blockchain-powered e-voting system designed to ensure secure, t
 
 ### How to run?
 
-'''
+```
 cd VotingSystem
 truffle compile
 truffle migrate #make sure Ganache is running in the background. Navigate to Voting.json from VotingSystem dir and copy entire code and paste it in voting-system>src>conracts>Voting.json
 truffle exec interact.js #Backend deployment 
-'''
-'''
+```
+```
 cd voting-system
 npm start #Frontend deployment
-'''
+```
 
 ### License
 
